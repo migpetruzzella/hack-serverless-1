@@ -1,0 +1,19 @@
+{
+  "name": "hack-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "link-module-alias": "^1.2.0",
+    "middy": "^0.36.0",
+    "netlify": "^13.0.2"
+  },
+  "_moduleAliases": {
+    "@output": "./utils/output/output.js"
+  }
+}
